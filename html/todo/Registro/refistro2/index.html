@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registrar usuario</title>
+	<meta charset="utf-8">
+	
+</head>
+<body>
+    <form method="post" class="formulario">
+	<h1>Registrate</h1>
+			<div class="contenedor">
+				<div class="input-contenedor">
+    				<input type="text" name="name" placeholder="Nombre completo">
+				</div>
+
+				<div class="input-contenedor">
+					<input type="password" name="pass" placeholder="pass">
+				</div>
+
+				
+				<div class="input-contenedor">
+					<input type="email" name="email" placeholder="Email" class="a">
+				</div>
+
+
+    	<input type="submit" name="register" class="butoon">
+		<p>¿Ya tienes cuenta?<a href="../login.html">inicia sesion</a></p>
+		<p>vuelve atras <a href="../../../pagina_web.html">pincha aqui</a></p>
+		</div>
+    
+        <?php 
+        include("registrar.php");
+        ?>
+		</form>
+		<link rel="stylesheet" href="../stylos.css">
+	
+</body>
+</html>
